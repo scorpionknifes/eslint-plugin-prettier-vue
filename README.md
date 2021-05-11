@@ -1,5 +1,7 @@
 # eslint-plugin-prettier-vue
 
+Fork to fix https://github.com/meteorlxy/eslint-plugin-prettier-vue/issues/13
+
 [![npm](https://img.shields.io/npm/v/eslint-plugin-prettier-vue)](https://www.npmjs.com/package/eslint-plugin-prettier-vue)
 [![prettier](https://img.shields.io/badge/code%20style-prettier-blue)](https://github.com/prettier/prettier)
 [![GitHub](https://img.shields.io/github/license/meteorlxy/eslint-plugin-prettier-vue)](https://github.com/meteorlxy/eslint-plugin-prettier-vue/blob/main/LICENSE)
