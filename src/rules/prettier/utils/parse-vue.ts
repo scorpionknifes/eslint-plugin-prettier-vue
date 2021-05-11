@@ -53,7 +53,7 @@ const processSFCBlock = ({
     // to make the `vueIndentScriptAndStyle` option of prettier works, so we need
     // to wrap them with their original tags
     const startingTag = `<${type}${lang ? ` lang="${lang}"` : ''}>`;
-    const endingTag = `</${type}>\n`;
+    const endingTag = `</${type}>${content.includes('\r\n') ? '\r\n' : '\n'}`;
 
     const source = `${startingTag}${content}${endingTag}`;
 
