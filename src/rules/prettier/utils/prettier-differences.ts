@@ -34,7 +34,7 @@ export const prettierDifferences = ({
     if (err.message.startsWith('No parser could be inferred for file')) {
       console.warn(
         chalk.yellow('warning'),
-        '[prettier-vue]',
+        '[prettier-vue-scorpionknifes]',
         `No parser could be inferred for "${path.extname(
           options.filepath || '',
         )}" format`,

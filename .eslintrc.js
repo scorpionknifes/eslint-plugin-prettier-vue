@@ -40,7 +40,7 @@ module.exports = {
   ],
 
   settings: {
-    'prettier-vue': {
+    'prettier-vue-scorpionknifes': {
       SFCBlocks: {
         template: true,
         script: true,

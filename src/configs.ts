@@ -10,13 +10,13 @@ export const configs: Record<string, Linter.BaseConfig> = {
     /**
      * use this plugin
      */
-    plugins: ['prettier-vue'],
+    plugins: ['prettier-vue-scorpionknifes'],
 
     /**
      * use prettier rules
      */
     rules: {
-      'prettier-vue/prettier': 'error',
+      'prettier-vue-scorpionknifes/prettier': 'error',
     },
   },
 };

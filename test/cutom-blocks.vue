@@ -5,7 +5,7 @@ Because its language is specified in the settings:
 // .eslintrc.js
 module.exports = {
   settings: {
-    'prettier-vue': {
+    'prettier-vue-scorpionknifes': {
       customBlocks: {
         docs: { lang: "markdown" }
       }
@@ -20,7 +20,7 @@ module.exports = {
 
 <template>
   <div>
-    <input id="multiple" class="attributes" v-model="attrOrder">
+    <input id="multiple" class="attributes" v-model="attrOrder" />
   </div>
 </template>
 
@@ -30,19 +30,23 @@ export default {
 
   data: () => ({
     attrOrder: 'v-model',
-    single: "quote",
-    comma: 'dangle'
+    single: 'quote',
+    comma: 'dangle',
   }),
-}
+};
 </script>
 
 <style>
-div { color: green }
+div {
+  color: green;
+}
 </style>
 
 <style lang="scss">
 $text-color: green;
-div { color: $text-color; }
+div {
+  color: $text-color;
+}
 </style>
 
 <no-prettier-block>
@@ -52,7 +56,7 @@ Because it is set to `false` settings:
 // .eslintrc.js
 module.exports = {
   settings: {
-    'prettier-vue': {
+    'prettier-vue-scorpionknifes': {
       customBlocks: {
         'no-prettier-block': false,
       },

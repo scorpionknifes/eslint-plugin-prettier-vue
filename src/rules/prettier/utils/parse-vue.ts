@@ -79,7 +79,7 @@ const processSFCBlock = ({
  * @param {Object} vueFile
  * @param {string} vueFile.source source code string of the `.vue` file
  * @param {string} vueFile.filepath file path of the `.vue` file
- * @param {Object} vueFile.options options for custom blocks, which is set in `settings['prettier-vue'].SFCBlocks` of `.eslintrc.js`
+ * @param {Object} vueFile.options options for custom blocks, which is set in `settings['prettier-vue-scorpionknifes'].SFCBlocks` of `.eslintrc.js`
  *
  * @returns {Array<Object>} returns an array of Object to be used by prettier
  */

@@ -1,5 +1,5 @@
 {
-  "name": "@scorpionknifes/eslint-plugin-prettier-vue",
+  "name": "eslint-plugin-prettier-vue-scorpionknifes",
   "version": "3.0.0",
   "description": "ESLint plugin for Prettier formatting, which is better for Vue SFC",
   "homepage": "https://github.com/meteorlxy/eslint-plugin-prettier-vue",
